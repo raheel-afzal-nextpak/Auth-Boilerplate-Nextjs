@@ -1,0 +1,77 @@
+{
+  "root": true,
+  "ignorePatterns": ["package.json", "node_modules/*", "**/node_modules/*","jest.config.js", "cypress/*", "next.config.js","jest.setup.js"],
+  "plugins": [
+    "import",
+    "react",
+    "react-hooks",
+    "unused-imports",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "unused-imports/no-unused-imports": "error"
+  },
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["tsconfig.base.json"],
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "rules": {
+        "no-constant-condition": ["error", { "checkLoops": false }],
+        "no-empty": "error",
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "no-param-reassign": ["error", { "props": false }],
+        "no-unused-expressions": "error",
+        "no-useless-constructor": "error",
+        "object-curly-spacing": ["error", "always"],
+        "eol-last": "error",
+        "react-hooks/exhaustive-deps": [
+          "warn",
+          { "additionalHooks": "(useDamoaActionStream)" }
+        ],
+        "react-hooks/rules-of-hooks": "off",
+        // "react/destructuring-assignment": ["warn", "always"],
+        "react/jsx-curly-spacing": [
+          "error",
+          { "when": "never", "children": { "when": "never" } }
+        ],
+        "react/jsx-filename-extension": [
+          "warn",
+          { "extensions": [".js", ".jsx", ".tsx"] }
+        ],
+        "@typescript-eslint/explicit-member-accessibility": [
+          "error",
+          { "accessibility": "no-public" }
+        ],
+        "@typescript-eslint/member-delimiter-style": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/quotes": "off",
+        "@typescript-eslint/semi": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        // "@typescript-eslint/no-unused-vars": [
+        //   "warn",
+        //   {
+        //     "ignoreRestSiblings": true,
+        //     "args": "all",
+        //     "argsIgnorePattern": "^_"
+        //   }
+        // ],
+
+        "@typescript-eslint/object-curly-spacing": ["error", "always"]
+      }
+    }
+  ]
+}

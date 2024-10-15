@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth_card {
+    @apply w-full max-w-[28rem] p-6 shadow;
+}
+
+.auth_header {
+    @apply text-center py-12;
+}
+
+.auth_submit {
+    @apply my-4 w-full;
+}
