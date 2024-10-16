@@ -55,3 +55,56 @@ Here’s a breakdown of the key packages used in this project:
 - **[Husky](https://typicode.github.io/husky/#/)** - Pre-commit hooks for ensuring code quality.
 
 
+## 🚀 Quick Start
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/radix-auth-boilerplate.git
+cd radix-auth-boilerplate
+2. Install dependencies
+bash
+Copy code
+npm install
+3. Firebase Setup
+Go to Firebase Console, create a project, and enable Email/Password, Google, and Apple authentication.
+Download your Firebase credentials and update the .env file:
+makefile
+Copy code
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+4. Run the development server
+bash
+Copy code
+npm run dev
+Visit http://localhost:3000 in your browser to see the project in action.
+
+5. Build for production
+bash
+Copy code
+npm run build
+📚 Usage
+Firebase Authentication: Easily manage user authentication with email/password, Google, and Apple sign-in.
+Tailwind CSS: Customize the look and feel of your app by modifying the pre-configured utility classes.
+Radix UI: Quickly implement accessible UI components for menus, tabs, popovers, and more.
+Forms: Use React Hook Form and Zod for efficient form handling and validation.
+📈 Performance and Testing
+Run tests using Jest and React Testing Library:
+
+bash
+Copy code
+npm run test
+🧰 Additional Tools
+Recoil for state management, providing an easy-to-use and flexible alternative to Redux.
+Redux Logger for logging Redux state changes in development.
+Tailwind Merge for handling Tailwind utility class conflicts.
+🔗 Useful Links
+Radix UI Documentation
+Tailwind CSS Documentation
+Firebase Documentation
+🤝 Contributing
+Feel free to open issues and pull requests. Contributions are welcome!
+
