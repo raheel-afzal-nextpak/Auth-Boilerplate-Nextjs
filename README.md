@@ -1,4 +1,4 @@
-# 🚀 RadixAuthBoilerplate
+# 🚀 Auth-Boilerplate-Nextjs
 
 [![Next.js](https://img.shields.io/badge/Next.js-v14.2.2-000000?logo=next.js&style=for-the-badge)](https://nextjs.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-v10.11.1-FFCA28?logo=firebase&style=for-the-badge)](https://firebase.google.com/)
