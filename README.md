@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 RadixAuthBoilerplate
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-v14.2.2-000000?logo=next.js&style=for-the-badge)](https://nextjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-v10.11.1-FFCA28?logo=firebase&style=for-the-badge)](https://firebase.google.com/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3.3.0-06B6D4?logo=tailwindcss&style=for-the-badge)](https://tailwindcss.com/)
+[![Radix UI](https://img.shields.io/badge/Radix%20UI-v1.0-4F46E5?logo=radix&style=for-the-badge)](https://www.radix-ui.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-v5.0.4-3178C6?logo=typescript&style=for-the-badge)](https://www.typescriptlang.org/)
 
-First, run the development server:
+This project is a **Next.js** boilerplate that provides a strong foundation for building modern web applications with Firebase authentication, Radix UI components, Tailwind CSS for styling, and TypeScript for type safety. It implements a clean and maintainable structure, using the Repository Pattern with Firebase and state management using Redux and Recoil.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Firebase Authentication** with support for:
+  - 📧 **Email/Password Authentication** (including email verification)
+  - 🔐 **Google Sign-in**
+  - 🍏 **Apple Sign-in**
+  
+- **Radix UI Components** for accessible, customizable UI elements.
+- **Tailwind CSS** for utility-first, responsive styling.
+- **TypeScript** for type safety and a great developer experience.
+- **Repository Pattern** for a clean separation between business logic and Firebase.
+- **State Management** with **Redux Toolkit** and **Recoil**.
+- **Form Handling** with **React Hook Form** and **Zod** for schema-based validation.
+- **Unit Testing** using **Jest** and **React Testing Library**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Packages Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Here’s a breakdown of the key packages used in this project:
 
-## Learn More
+### Core Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+- **[Next.js](https://nextjs.org/)** - The React Framework for Production.
+- **[Firebase](https://firebase.google.com/)** - Authentication and backend services.
+- **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
+- **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapid UI development.
+- **[Radix UI](https://www.radix-ui.com/)** - Accessible UI components for building high-quality design systems.
+  
+### Firebase and State Management
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Firebase v10.11.1](https://firebase.google.com/)** - Authentication and data management.
+- **[Redux Toolkit](https://redux-toolkit.js.org/)** - Efficient Redux setup for state management.
+- **[Recoil](https://recoiljs.org/)** - A flexible state management library for complex state.
+- **[Redux Persist](https://github.com/rt2zz/redux-persist)** - Persist Redux state across sessions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Forms and Validation
 
-## Deploy on Vercel
+- **[React Hook Form](https://react-hook-form.com/)** - Performant, flexible form handling.
+- **[Zod](https://zod.dev/)** - TypeScript-first schema validation for forms.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Testing and Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **[Jest](https://jestjs.io/)** - Delightful JavaScript testing.
+- **[React Testing Library](https://testing-library.com/)** - Testing utilities to work with React components.
+- **[ESLint](https://eslint.org/)** - Linter for code consistency.
+- **[Husky](https://typicode.github.io/husky/#/)** - Pre-commit hooks for ensuring code quality.
+
+
