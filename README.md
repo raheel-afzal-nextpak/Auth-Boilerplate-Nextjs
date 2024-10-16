@@ -58,17 +58,10 @@ Here’s a breakdown of the key packages used in this project:
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
-## 🚀 Quick Start
-
-### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/radix-auth-boilerplate.git
 cd radix-auth-boilerplate
 
-
-### 1. Install dependencies
-```bash
-npm install
 
 
 
