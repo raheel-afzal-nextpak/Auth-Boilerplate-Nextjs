@@ -59,7 +59,7 @@ Here’s a breakdown of the key packages used in this project:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/radix-auth-boilerplate.git](https://github.com/raheel-afzal-nextpak/Auth-Boilerplate-Nextjs.git)
+git clone https://github.com/raheel-afzal-nextpak/Auth-Boilerplate-Nextjs.git
 cd radix-auth-boilerplate
 
 
